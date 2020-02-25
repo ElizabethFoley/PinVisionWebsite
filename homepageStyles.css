@@ -1,0 +1,28 @@
+h1{
+  font-size: 40px;
+  font-family: futura;
+}
+
+img{
+  float:left;
+  width: 150px;
+  height: 100px;
+}
+
+button{
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #AFEEEE;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  font-size: 16px;
+  font-family: futura;
+}
+
+button:hover {
+  background-color: #00CED1;
+  color: black;
+  border: white;
+}
