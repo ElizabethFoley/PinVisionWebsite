@@ -1,17 +1,47 @@
-h1{
-  font-size: 40px;
-  font-family: futura;
-}
-
 h2{
     padding-left: 15%;
     font-size: 30px;
     font-family: futura;
+    color: white;
 }
-
+body{
+  background-image: url('pizzaBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 p{
     text-align: center;
     font-size: 120%;
     padding-left: 15%;
-    padding-right: 15%
+    padding-right: 15%;
+    background-color: RGBA(255,255,255,0.6);
+}
+h1{
+  font-size: 65px;
+  font-family: futura;
+  color: white;
+  text-shadow:-6px 0 black;
+  display: inline-block;
+}
+img{
+  float:left;
+  width: 155px;
+  height: 130px;
+}
+button{
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #AFEEEE;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  font-size: 20px;
+  font-family: futura;
+}
+/*button hovering styling: changes color when hovered over*/
+button:hover {
+  background-color: #00CED1;
+  color: black;
+  border: white;
 }
