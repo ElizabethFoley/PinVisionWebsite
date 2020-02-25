@@ -1,6 +1,12 @@
 h1{
   font-size: 60px;
   font-family: futura;
+  text-shadow: -6px 0 black;
+  color: white;
+
+}
+body{
+  background-image: url("pizzaBackground.jpg");
 }
 img{
   float: left;
@@ -10,6 +16,7 @@ img{
 h2{
   font-size: 40px;
   text-align: center;
+  color: white;
 }
 table{
   margin-left: auto;
