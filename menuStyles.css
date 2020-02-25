@@ -1,0 +1,64 @@
+h1{
+  font-size: 60px;
+  font-family: futura;
+  text-shadow: -6px 0 black;
+  color: white;
+
+}
+body{
+  background-image: url("pizzaBackground.jpg");
+}
+img{
+  float: left;
+  width: 150px;
+  height: 100px;
+}
+h2{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+.t1{
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+}
+.t1 th{
+  font-size: 25px;
+  background: black;
+  color: white;
+}
+.t1 tr td{
+  background-color: #AFEEEE;
+}
+.d1{
+  margin: auto;
+  width: 50%;
+}
+.p1{
+
+  display: inline-block;
+  background-color: #AFEEEE;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+/*button styling: aligned center, background color, transition when mouse hovers over, font, font color, and font size*/
+button{
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #AFEEEE;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  font-size: 20px;
+  font-family: futura;
+}
+/*button hovering styling: changes color when hovered over*/
+button:hover {
+  background-color: #00CED1;
+  color: black;
+  border: white;
+}
