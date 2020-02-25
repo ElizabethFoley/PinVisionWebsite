@@ -1,27 +1,28 @@
+/*background image*/
 body{
   background-image: url('pizzaBackground.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/*header1 styling: font, font size, color, and shadowing*/
 h1{
   font-size: 65px;
   font-family: futura;
   color: white;
   text-shadow:-6px 0 black;
 }
-
+/*logo image styling: floating to the left and size*/
 img{
   float:left;
   width: 155px;
   height: 130px;
 }
-
+/*table styling: centered*/
 table{
   margin-left: auto;
   margin-right: auto;
 }
-
+/*button styling: aligned center, background color, transition when mouse hovers over, font, font color, and font size*/
 button{
   text-align: center;
   cursor: pointer;
@@ -33,13 +34,13 @@ button{
   font-size: 20px;
   font-family: futura;
 }
-
+/*button hovering styling: changes color when hovered over*/
 button:hover {
   background-color: #00CED1;
   color: black;
   border: white;
 }
-
+/*styling for the background of the paragraph: set opacity of background color, aligned center*/
 div{
   display: inline-block;
   text-align: center;
@@ -50,7 +51,7 @@ div{
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-
+/*paragraph styling: font, font size, font color*/
 p{
   font-size: 19px;
   font-family: futura;
