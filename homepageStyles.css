@@ -39,3 +39,21 @@ button:hover {
   color: black;
   border: white;
 }
+
+div{
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.60);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+p{
+  font-size: 19px;
+  font-family: futura;
+  color: black;
+  text-align: center;
+}
