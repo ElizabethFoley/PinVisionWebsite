@@ -10,6 +10,14 @@ h1{
   font-family: futura;
   color: white;
   text-shadow:-6px 0 black;
+  display: inline-block;
+}
+/*header2 styling: font size, font color, positioning*/
+h2{
+  font-size: 30px;
+  font-family: futura;
+  color: white;
+  display: inline-block;
 }
 /*logo image styling: floating to the left and size*/
 img{
