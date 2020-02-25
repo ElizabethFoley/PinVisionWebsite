@@ -5,16 +5,16 @@ body{
 }
 
 h1{
-  font-size: 60px;
+  font-size: 65px;
   font-family: futura;
   color: white;
-  text-shadow:-7px 0 black;
+  text-shadow:-6px 0 black;
 }
 
 img{
   float:left;
-  width: 160px;
-  height: 122px;
+  width: 155px;
+  height: 130px;
 }
 
 table{
