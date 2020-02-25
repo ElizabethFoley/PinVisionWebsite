@@ -1,0 +1,30 @@
+h1{
+  font-size: 60px;
+  font-family: futura;
+}
+img{
+  float: left;
+  width: 150px;
+  height: 100px;
+}
+ul{
+  margin: 10;
+  padding: 10 0 0 15;
+  display: inline;
+}
+
+ul li{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  list-style-type: none;
+  width: 500px;
+}
+
+h4.Pizza{
+  text-align: center;
+}
+p.pizza{
+  text-align: center;
+}
